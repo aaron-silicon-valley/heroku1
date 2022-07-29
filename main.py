@@ -7,11 +7,11 @@ app = Flask(__name__)
 @app.route("/")
 def navigate():
     sleep(1)
-    return redirect("/home")
+    return redirect("/resume")
 
-@app.route("/home")
-def home():
-    return "flask running"
+# @app.route("/home")
+# def home():
+#     return "flask running"
 
 @app.route("/resume")
 def resume():
