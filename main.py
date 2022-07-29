@@ -6,7 +6,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def navigate():
-    sleep(1)
     return redirect("/resume")
 
 # @app.route("/home")
